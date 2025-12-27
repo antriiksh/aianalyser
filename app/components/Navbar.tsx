@@ -1,18 +1,15 @@
 import {Link} from "react-router";
 
 const Navbar = () => {
-    return(
+    return (
         <nav className="navbar">
             <Link to="/">
-                <p className="text-2xl font-bold text-gradient"></p>
+                <p className="text-2xl font-bold text-gradient">RESUME ANALYZER PROJECT</p>
             </Link>
-
             <Link to="/upload" className="primary-button w-fit">
-                Upload resume
+                Upload Resume
             </Link>
-
-                </nav>
+        </nav>
     )
 }
-
-export default Navbar;
+export default Navbar
